@@ -8,14 +8,3 @@ function changeKeys(keysToChange, steps) {
 
 }
 
-
-
-
-
-//EXAMPLE TESTS
-
-console.log(changeKeys(['A', 'B'], 0));
-// OUTPUT: ['F', 'F#']
-
-console.log(changeKeys(['A', 'C', 'E'], 2));
-// OUTPUT: ['B', 'D', 'F#']
