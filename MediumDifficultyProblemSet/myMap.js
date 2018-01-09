@@ -1,8 +1,10 @@
-
-
-
-
-
+function myMap(array, func){
+	var newArray = [];
+	for (var i = 0; i < array.length; i++){
+		newArray.push(func(array[i]));
+	}
+	return newArray;
+}
 
 
 
