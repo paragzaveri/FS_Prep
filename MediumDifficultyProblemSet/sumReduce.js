@@ -1,11 +1,7 @@
-function sumReduce(array){
-	var sum = 50;
-	for (var i = 0; i < array.length; i++){
-		sum+=array[i];
-	}
-	return sum;
-}
-
+// function sumReduce(array){	
+// 	return array.reduce(function (total,num){ return total+num;},50);
+// }
+var sumReduce = (array) => array.reduce(function (total,num){ return total+num;},50);
 
 
 
